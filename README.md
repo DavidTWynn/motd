@@ -7,7 +7,7 @@
     |_|_|_| \___/ \__|\__,_|  
 
 # motd
-![AUR last modified](https://img.shields.io/aur/last-modified/motd?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/davidtwynn/motd?style=plastic)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/davidtwynn/motd?style=plastic)
 ![Python version](https://img.shields.io/badge/python%20version-3.10-blue)
 ![Coding style](https://img.shields.io/badge/code%20style-black-000000.svg)
