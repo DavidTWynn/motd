@@ -20,3 +20,7 @@ Collaboration project to create a network device 'message of the day' generator 
 - Python backend with RestAPI for creating templates with desired inputs
 - Jinja2 template engine for generating the text config
 - Learn from this project as a foundation for other collaboration projects with Python and React
+
+## Examples
+
+![motd image](images/basic_motd.JPG)
