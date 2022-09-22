@@ -24,9 +24,8 @@ Collaboration project to create a network device 'message of the day' generator 
 
 ## Examples
 
-![motd image](images/basic_motd.JPG)
-
-![motd image](images/template_motd.JPG)
+<img src="https://github.com/DavidTWynn/motd/blob/master/images/basic_motd.JPG" width="35%" height="35%">
+<img src="https://github.com/DavidTWynn/motd/blob/master/images/template_motd.JPG" width="35%" height="35%">
 
 ## Setup Python Backend
 
