@@ -1,0 +1,15 @@
+{% set length = 46 %}
+{{ '%' * (length + 2)}}
+%{{ "Welcome to".center(length)}}%
+%{{ street_address.center(length) }}%
+%{{ city.center(length) }}%
+%{{ [state, zip]|join(' ')|center(length) }}%
+%{{ ' ' * (length) }}%
+%{{ ["Model: ", model]|join()|center(length)}}%
+%{{ ["Uptime: ", uptime]|join()|center(length)}}%
+%{{ ["Last change: ", last_change]|join()|center(length)}}%
+%{{ ["CPU ", cpu]|join()|center(length)}}%
+%{{ ["Memory: ", memory]|join()|center(length)}}%
+%{{ ["Uplink utilization: ", uplink_util]|join()|center(length)}}%
+%{{ ' ' * (length) }}%
+{{ '%' * (length + 2)}}
