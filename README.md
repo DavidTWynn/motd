@@ -27,3 +27,37 @@ Collaboration project to create a network device 'message of the day' generator 
 ![motd image](images/basic_motd.JPG)
 
 ![motd image](images/template_motd.JPG)
+
+## Setup Python Backend
+
+Requirements
+
+- Python 3.10
+- Jinja2
+
+```bash
+git clone https://github.com/DavidTWynn/motd
+cd motd
+python -m pip install -r requirements.txt
+```
+
+## Run Python Backend
+
+```bash
+> python .\motd_backend\motd\motd.py
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                  Welcome to                  %
+%           9516 Snow Heights Cir NE           %
+%                 Albuquerque                  %
+%                   NM 87112                   %
+%                                              %
+%             Model: Cisco IOSvL2              %
+% Uptime: 2 weeks, 2 days, 5 hours, 23 minutes %
+%  Last change: 23:43:51 UTC Wed Sep 21 2022   %
+%  CPU five seconds: 25%/0%; one minute: 15%   %
+%                 Memory: 15%                  %
+%            Uplink utilization: 5%            %
+%                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
